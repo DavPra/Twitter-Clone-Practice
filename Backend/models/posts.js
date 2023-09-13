@@ -22,3 +22,5 @@ const posts = sequelize.define('posts', {
     {
         timestamps: true
         });
+
+module.exports = posts;
